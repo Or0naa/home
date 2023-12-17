@@ -1,0 +1,32 @@
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.homePage{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hedder{
+  background-image: url(hedder.jpg);
+  width: 100%;
+  height: 400px;
+  color: #fff;
+}
+.list{
+  width: calc(100%-50px);
+  display: flex;
+  flex-wrap: wrap;
+}
+.artical{
+  width: calc(25% - 1em);
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+}

@@ -1,4 +1,3 @@
-
 .card {
   padding: 2em;
 }
@@ -7,26 +6,40 @@
   color: #888;
 }
 
-.homePage{
+.app {
+  top: 0;
+  width: 100vw;
+  align-items: center;
+}
+
+.homePage {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.hedder{
+.hedder {
   background-image: url(hedder.jpg);
   width: 100%;
   height: 400px;
   color: #fff;
+  align-items: center;
 }
-.list{
-  width: calc(100%-50px);
+
+.list {
+  width: 95%;
+  height: auto;
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
+  gap: 1em;
 }
-.artical{
+
+.artical {
   width: calc(25% - 1em);
   height: 200px;
   display: flex;
   flex-direction: column;
+  background-size: cover;
+  background-position: center;
 }
